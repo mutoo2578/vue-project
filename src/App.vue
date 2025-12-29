@@ -242,11 +242,7 @@ const tableData = [
       <div style="height: 2px; background-color: #000"></div>
 
       <el-header style="display: flex; align-items: center">
-        <img
-          style="width: 120px; height: 80px; margin-left: -20px"
-          src="/public/img/logo.svg"
-          alt=""
-        />
+        <img style="width: 120px; height: 80px; margin-left: -20px" src="/img/logo.svg" alt="" />
         <div class="header-box width: 120px; height: 80px;">
           <div class="trapezoid-tabs trap-box">
             <div
@@ -267,7 +263,7 @@ const tableData = [
             style="
               width: 80%;
               height: 70px;
-              background-image: url('/public/img/bb1.svg');
+              background-image: url('/img/bb1.svg');
               background-repeat: no-repeat;
               background-size: 100% 100%;
               padding: 6px 0 0 80px;
@@ -294,7 +290,7 @@ const tableData = [
             >
               <!-- <div style="background-image: url('/public/img/Polygon 2.svg')"></div> -->
               <img
-                src="/public/img/yh.svg"
+                src="/img/yh.svg"
                 alt=""
                 style="width: 20px; height: 15px; margin-top: 2px; margin-left: -40px"
               />
@@ -318,8 +314,8 @@ const tableData = [
             </div>
           </div>
           <div style="display: flex; align-items: center; /* flex: 1; justify-content: center */">
-            <img src="/public/img/tx.svg" alt="" style="width: 60px; height: 60px" />
-            <img src="/public/img/xjt.svg" alt="" style="width: 21px; height: 26px" />
+            <img src="/img/tx.svg" alt="" style="width: 60px; height: 60px" />
+            <img src="/img/xjt.svg" alt="" style="width: 21px; height: 26px" />
           </div>
         </div>
       </el-header>
@@ -345,10 +341,10 @@ const tableData = [
           </div>
           <div class="tree-box">
             <div class="image-btn">
-              <img src="/public/img/1.svg" alt="" />
-              <img src="/public/img/2.svg" alt="" />
-              <img src="/public/img/3.svg" alt="" />
-              <img src="/public/img/4.svg" alt="" />
+              <img src="/img/1.svg" alt="" />
+              <img src="/img/2.svg" alt="" />
+              <img src="/img/3.svg" alt="" />
+              <img src="/img/4.svg" alt="" />
             </div>
             <el-tree
               node-key="id"
@@ -378,7 +374,7 @@ const tableData = [
               style="
                 width: 100%;
                 height: 92px;
-                background-image: url('/public/img/xl.svg');
+                background-image: url('/img/xl.svg');
                 background-repeat: no-repeat;
                 background-size: 100%;
               "
@@ -398,7 +394,7 @@ const tableData = [
                   margin-right: -2px;
                   text-align: center;
                   background-color: #3f444d;
-                  background-image: url('/public/img/mbx.svg');
+                  background-image: url('/img/mbx.svg');
                   background-repeat: no-repeat;
                   background-size: 103% 100%;
                 "
@@ -757,8 +753,3 @@ const tableData = [
 </template>
 
 <style lang="less" src="./assets/app.less" scoped></style>
-<!--
-  1. 黄色的线距离上面没有这么远，黄色线到黑线的距离，等于黑线到页头的距离
-  2.列表工艺进度那边效果没出来
-  3.菜单icon是比较大的，不是扁平风
--->
